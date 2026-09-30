@@ -1,0 +1,6 @@
+.build/
+.swiftpm/
+*.xcodeproj
+.DS_Store
+# Never commit an address-book export
+*.vcf
