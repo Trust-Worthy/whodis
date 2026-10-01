@@ -1,6 +1,57 @@
+# ── Swift Package Manager ──
 .build/
 .swiftpm/
-*.xcodeproj
-.DS_Store
-# Never commit an address-book export
+Packages/
+
+# ── Xcode ──
+# *.xcodeproj IS committed; only per-user state and build output are ignored.
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+build/
+*.xcarchive
+*.xcresult
+*.dSYM
+*.dSYM.zip
+*.hmap
+*.moved-aside
+
+# ── Signing & notarization secrets: never commit ──
+*.p12
+*.p8
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+.env
+.env.*
+!.env.example
+
+# ── Release artifacts (attach to GitHub Releases instead) ──
+dist/
+*.dmg
+*.pkg
+*.zip
+
+# ── Personal data whodis handles: never commit ──
 *.vcf
+*.vcard
+chat.db
+chat.db-*
+
+# ── macOS ──
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# ── Editors ──
+.vscode/
+.idea/
+*.swp
