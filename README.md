@@ -50,7 +50,7 @@ Only the people you actually talk to get cards. Nothing else from the export is 
 Requires macOS 13+ and Swift 5.9+ (Xcode or the Command Line Tools: `xcode-select --install`).
 
 ```sh
-git clone https://github.com/<your-username>/whodis.git
+git clone https://github.com/Trust-Worthy/whodis.git
 cd whodis
 make install                      # installs to /usr/local/bin (may need sudo)
 # or: make install PREFIX=~/.local
